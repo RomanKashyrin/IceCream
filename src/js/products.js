@@ -1,52 +1,52 @@
 (() => {
   {
   const refs = {
-    IceCreamBtn: document.querySelector('[ice-cream-btn]'),
-    IceCreamOverlay: document.querySelector('[ice-cream-overlay]'),
-    IceCreamBtnRotate: document.querySelector('[ice-cream-btn-rotate]'),
-    IceCreamCardActive: document.querySelector('[ice-cream-card-activation]'),
+    iceCreamBtn: document.querySelector('[ice-cream-btn]'),
+    iceCreamOverlay: document.querySelector('[ice-cream-overlay]'),
+    iceCreamBtnRotate: document.querySelector('[ice-cream-btn-rotate]'),
+    iceCreamCardActive: document.querySelector('[ice-cream-card-activation]'),
   };
 
-  refs.IceCreamBtn.addEventListener('click', toggleOverlay);
+  refs.iceCreamBtn.addEventListener('click', toggleOverlay);
 
   function toggleOverlay() {
-    refs.IceCreamOverlay.classList.toggle('overlay-shown');
-    refs.IceCreamBtnRotate.classList.toggle('btn-icon-rotetion');
-    refs.IceCreamCardActive.classList.toggle('card-is-active');
+    refs.iceCreamOverlay.classList.toggle('overlay-shown');
+    refs.iceCreamBtnRotate.classList.toggle('btn-icon-rotetion');
+    refs.iceCreamCardActive.classList.toggle('card-is-active');
     }
   }
 
   {
     const refs = {
-      IceCoffeeBtn: document.querySelector('[ice-coffee-btn]'),
-      IceCoffeeOverlay: document.querySelector('[ice-coffee-overlay]'),
-      IceCoffeeBtnRotate: document.querySelector('[ice-coffee-btn-rotate]'),
-      IceCoffeeCardActive: document.querySelector('[ice-coffee-card-activation]'),
+      iceCoffeeBtn: document.querySelector('[ice-coffee-btn]'),
+      iceCoffeeOverlay: document.querySelector('[ice-coffee-overlay]'),
+      iceCoffeeBtnRotate: document.querySelector('[ice-coffee-btn-rotate]'),
+      iceCoffeeCardActive: document.querySelector('[ice-coffee-card-activation]'),
     };
 
-    refs.IceCoffeeBtn.addEventListener('click', toggleOverlay);
+    refs.iceCoffeeBtn.addEventListener('click', toggleOverlay);
 
     function toggleOverlay() {
-      refs.IceCoffeeOverlay.classList.toggle('overlay-shown');
-      refs.IceCoffeeBtnRotate.classList.toggle('btn-icon-rotetion');
-      refs.IceCoffeeCardActive.classList.toggle('card-is-active');
+      refs.iceCoffeeOverlay.classList.toggle('overlay-shown');
+      refs.iceCoffeeBtnRotate.classList.toggle('btn-icon-rotetion');
+      refs.iceCoffeeCardActive.classList.toggle('card-is-active');
     }
   }
 
   {
     const refs = {
-      MilkshakesBtn: document.querySelector('[milkshakes-btn]'),
-      MilkshakesOverlay: document.querySelector('[milkshakes-overlay]'),
-      MilkshakesBtnRotate: document.querySelector('[milkshakes-btn-rotate]'),
-      MilkshakesCardActive: document.querySelector('[milkshakes-card-activation]'),
+      milkshakesBtn: document.querySelector('[milkshakes-btn]'),
+      milkshakesOverlay: document.querySelector('[milkshakes-overlay]'),
+      milkshakesBtnRotate: document.querySelector('[milkshakes-btn-rotate]'),
+      milkshakesCardActive: document.querySelector('[milkshakes-card-activation]'),
     };
 
-    refs.MilkshakesBtn.addEventListener('click', toggleOverlay);
+    refs.milkshakesBtn.addEventListener('click', toggleOverlay);
 
     function toggleOverlay() {
-      refs.MilkshakesOverlay.classList.toggle('overlay-shown');
-      refs.MilkshakesBtnRotate.classList.toggle('btn-icon-rotetion');
-      refs.MilkshakesCardActive.classList.toggle('card-is-active');
+      refs.milkshakesOverlay.classList.toggle('overlay-shown');
+      refs.milkshakesBtnRotate.classList.toggle('btn-icon-rotetion');
+      refs.milkshakesCardActive.classList.toggle('card-is-active');
     }
   }
 }
